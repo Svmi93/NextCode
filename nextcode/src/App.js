@@ -6,7 +6,12 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/profil">Profil</Link>;
+        <Link to="/profil">Profil</Link>
+        <Link to="/">Home</Link>
+        <Link to="/">Formations</Link>
+        <Link to="/">Inscription</Link>
+        <Link to="/">Connexion</Link>
+        <Link to="/">Profil</Link>
       </nav>
       <Routes>
         <Route path="/profil" element={<Profil />} />
