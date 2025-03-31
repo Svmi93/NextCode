@@ -17,7 +17,7 @@ function App() {
             </Link>
           </li>
           <li>
-            <Link to="/" class="navLink">
+            <Link to="/formation" class="navLink">
               Formations
             </Link>
           </li>
@@ -38,6 +38,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/profil" element={<Profil />} />
+        <Route path="/formation" element={<Formation />} />
       </Routes>
     </Router>
   );
