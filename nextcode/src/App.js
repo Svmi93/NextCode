@@ -13,6 +13,7 @@ function App() {
         <Link to="/">Inscription</Link>
         <Link to="/">Connexion</Link>
         <Link to="/">Profil</Link>
+
       </nav>
       <Routes>
         <Route path="/profil" element={<Profil />} />
