@@ -7,17 +7,37 @@ function App() {
   return (
     <Router>
       <nav>
-        <Link to="/profil">Profil</Link>
-        <Link to="/">Home</Link>
-        <Link to="/formation">Formations</Link>
-        <Link to="/">Inscription</Link>
-        <Link to="/">Connexion</Link>
-        <Link to="/">Profil</Link>
-
+        <h1>
+          NEXT<span>CODE</span>
+        </h1>
+        <ul>
+          <li>
+            <Link to="/" class="navLink">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/" class="navLink">
+              Formations
+            </Link>
+          </li>
+          <li>
+            <Link to="/" class="navLink">
+              Inscriptions
+            </Link>
+          </li>
+          <li>
+            <Link to="/profil" class="btn">
+              Connexion
+            </Link>
+          </li>
+          {/* <li>
+          <Link to="/profil">Profil</Link>
+        </li> */}
+        </ul>
       </nav>
       <Routes>
         <Route path="/profil" element={<Profil />} />
-        <Route path="/formation" element={<Formation />} />
       </Routes>
     </Router>
   );
