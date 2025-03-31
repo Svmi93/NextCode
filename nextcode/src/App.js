@@ -10,14 +10,14 @@ function App() {
         <h1>
           NEXT<span>CODE</span>
         </h1>
-        <ul>
+        <ul class="navigation">
           <li>
             <Link to="/" class="navLink">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/" class="navLink">
+            <Link to="/formation" class="navLink">
               Formations
             </Link>
           </li>
@@ -38,6 +38,7 @@ function App() {
       </nav>
       <Routes>
         <Route path="/profil" element={<Profil />} />
+        <Route path="/formation" element={<Formation />} />
       </Routes>
     </Router>
   );

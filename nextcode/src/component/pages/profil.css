@@ -58,7 +58,7 @@ nav {
   padding: 1rem 2rem;
 }
 
-ul {
+.navigation {
   display: flex;
   gap: 2rem;
 }
