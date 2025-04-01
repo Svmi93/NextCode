@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Variable */
+
+:root {
+  --primary: #0d0d0d;
+  --secondary: #1d1d1d;
+  --emerald: #2ecc71;
+}
+
+/* Reset */
+body {
+  background: var(--primary);
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+span {
+  color: green;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+/* Class */
+
+.btn {
+  background: var(--emerald);
+  border-radius: 50px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding: 0.7rem 0.9rem;
+  color: var(--primary);
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+/* Header */
+
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.navigation {
+  display: flex;
+  gap: 2rem;
+}
+
+.navLink:hover {
+  color: gold;
+}
+
+/* Profil User*/
+
+.profil {
+  background: var(--secondary);
+  width: 1275px;
+  height: 172px;
+  margin: auto;
+  display: flex;
+  gap: 3rem;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  border-radius: 12px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.profil-info-name {
+  display: flex;
+  gap: 1.3rem;
+}
+
+img {
+  width: 104px;
+  height: 104px;
+}
+
+/* Progression formation */
+
+.progress {
+  background: var(--secondary);
+  width: 1278px;
+  height: 456px;
+  border-radius: 12px;
+  margin: auto;
+  margin-bottom: 5rem;
+  padding-top: 0.8rem;
+  padding-left: 2.5rem;
+}
+
+.progress-container {
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px;
+  grid-template-rows: 135px 135px;
+  row-gap: 3rem;
+  column-gap: 10rem;
+  justify-content: center;
+}
+
+/*120 135 */
